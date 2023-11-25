@@ -6,7 +6,9 @@ Run: npm i bootstrap-icons
 Run: npm i sass
 
 Run: mkdir sass
+Run: mkdir css
 Run: touch sass\main.scss
+Run: npx sass --watch sass/main.scss css/main.css
 Write in sass\main.scss:
 // Custom.scss
 // Option A: Include all of Bootstrap
