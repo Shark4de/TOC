@@ -1,0 +1,16 @@
+{
+    "name": "ms/toc",
+    "description": "TOC",
+    "authors": [
+        {
+            "name": "Marius Schroeder",
+            "email": "marius.schroeder@mail.de"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Toc\\Basis\\": "toc-modules/toc-basis/src",
+            "Toc\\Startpage\\": "toc-modules/toc-startpage/src/"
+        }
+    }
+}
